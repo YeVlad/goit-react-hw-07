@@ -1,0 +1,33 @@
+.addContact {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid gray;
+  border-radius: 4px;
+
+  padding: 17px;
+  margin-bottom: 20px;
+
+  width: 300px;
+}
+
+.formField {
+  margin-bottom: 14px;
+}
+
+.addBut {
+  height: 26px;
+  width: 90px;
+  background-color: #c6c6c6;
+
+  border: 1px solid gray;
+  border-radius: 3px;
+
+  align-self: center;
+
+  cursor: pointer;
+}
+
+.addBut:hover {
+  background-color: #cbcaca;
+}
